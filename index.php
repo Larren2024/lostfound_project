@@ -123,6 +123,7 @@ img { border-radius:6px; }
 <div class="d-flex justify-content-between align-items-center mb-4">
     <div>
         <h1 class="fw-bold">📦 Lost & Found System</h1>
+        <h1 class="fw-bold">📦 Test the push to git</h1>
         <h1 class="text-muted">Welcome, <?= htmlspecialchars($user['full_name']) ?></h1>
     </div>
     <a href="logout.php" class="btn btn-outline-danger">
@@ -220,7 +221,7 @@ img { border-radius:6px; }
                                <i class="bi bi-hand-index-thumb"></i> Claim
                             </a>
                         <?php else: ?>
-                            <span class="text-success fw-bold">Resolved</span>
+                            <span class="text-success fw-bold">Resolved Claim</span>
                         <?php endif; ?>
                     </td>
                 </tr>
